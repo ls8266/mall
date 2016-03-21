@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd">
+	<bean id="userDao" class="com.ls.dao.impl.UserDaoImpl"></bean>
+	<bean id="addressDao" class="com.ls.dao.impl.AddressDaoImpl"></bean>
+	<bean id="goodsDao" class="com.ls.dao.impl.GoodsDaoImpl"></bean>
+	<bean id="goodsPhotoDao" class="com.ls.dao.impl.GoodsPhotoDaoImpl"></bean>
+	<bean id="orderDao" class="com.ls.dao.impl.OrderDaoImpl"></bean>
+	<bean id="orderGoodsDao" class="com.ls.dao.impl.OrderGoodsDaoImpl"></bean>
+	
+</beans>
